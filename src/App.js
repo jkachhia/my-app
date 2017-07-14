@@ -71,7 +71,7 @@ this.getTodos();
     return (
       <div className="App">
         <AddPorject addProject={this.handleAddProjet.bind(this)} />
-        <h3> latest Project </h3>
+        <h3> latest Project THIS iS test</h3>
         <Project projects={this.state.projects} onDelete={this.handleDeleteProject.bind(this)} />
       </div> 
     );
